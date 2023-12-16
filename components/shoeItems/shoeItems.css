@@ -1,0 +1,47 @@
+/* Styles for the ShoeItems component */
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px;
+}
+
+.inner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Styles for the DefaultShoe component */
+.default-shoe {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.default-shoe img {
+    max-width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.default-shoe h3 {
+    margin: 10px 0;
+}
+
+.default-shoe p {
+    margin: 0;
+}
+
+.default-shoe .location {
+    font-weight: bold;
+}
+
+.default-shoe .price {
+    color: #e44d26;
+}
