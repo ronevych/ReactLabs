@@ -1,0 +1,58 @@
+.custom-container {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+}
+
+.inner{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-bottom: 150px;
+    padding-left: 30px;
+    
+}
+
+.custom-shoe-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+
+.custom-shoe-image {
+    max-width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.custom-shoe-name {
+    margin: 10px 0;
+}
+
+.custom-shoe-text {
+    margin: 0;
+    text-align: center;
+}
+
+.custom-shoe-text text {
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.custom-link {
+    text-align: center;
+    text-decoration: none;
+    color: #007bff;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.custom-link:hover {
+    color: #0056b3;
+}
